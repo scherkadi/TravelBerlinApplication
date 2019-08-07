@@ -1,0 +1,1 @@
+{"users":{"test@test":{"password":"test","profile":{"firstname":"test","lastname":"test","birthYear":"2019","email":"test@test","hometown":"test","interests":"testing","admin":true}},"mich@mich":{"password":"mich","profile":{"firstname":"Mich","lastname":"Mich","birthYear":"1999","email":"mich@mich","hometown":"Colorado","interests":"","admin":false}}}}
