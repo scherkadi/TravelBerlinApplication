@@ -1,0 +1,14 @@
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Optima"
+}
+
+body {
+  background-color: #00564e;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+

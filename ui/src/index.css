@@ -1,0 +1,283 @@
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Optima"
+}
+
+body {
+  background-color: #00564e;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.controller {
+  background-color: #FFFFFF;
+  color: #00564e;
+}
+
+.title {
+  color: #00564e;
+}
+
+.root-container {
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  margin: 4% auto;
+  padding: 5%;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+}
+
+.editRoot-container {
+  width: 500px;
+  /*width: auto;*/
+  min-height: 100px;
+  height: auto;
+  margin: 4% auto;
+  padding: 5%;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+}
+
+.editFormRoot-container {
+  width: 500px;
+  /*width: auto;*/
+  min-height: 100px;
+  height: auto;
+  margin: 4% auto;
+  padding: 5%;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+}
+
+.box-controller {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+}
+
+.box-container {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  height: auto;
+  margin: 4% auto;
+  padding: 5%;
+  background-color: #FFFFFF;
+  color: #00564e;
+}
+
+form .con {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block;
+  color: #FFFFFF;
+
+  width: 280px;
+  height: 50px;
+
+  padding: 0 20px;
+  background: #00564e;
+  border-radius: 5px;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+
+  margin: 7% auto;
+  letter-spacing: 0.05em;
+}
+
+.attraction-button {
+  width: 280px;
+  height: 50px;
+}
+
+input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #00564e;
+}
+
+label {
+  padding: 10px;
+}
+
+.top-nav {
+  background-color: #333;
+  overflow: hidden;
+  height: 60px;
+}
+
+/* Style the links inside the navigation bar */
+.top-nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.top-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/*homepage*/
+.attractions {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin: 10px auto;
+}
+
+.attraction-container {
+  width: 350px;
+  height: 350px;
+  margin: 4% auto;
+  /*padding: 5%;*/
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.attraction-descr {
+  width: 900px;
+  height: 1000px;
+  margin: 4% auto;
+  /*padding: 5%;*/
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.attr-container {
+  width: 500px;
+  height: 400px;
+  margin: 4% auto;
+  /*padding: 5%;*/
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+  font-size: 20px;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #00564e;
+  width: 300px;
+  textAlign: 'center';
+}
+
+.attractionInput-group {
+  padding: 3px;
+}
+
+.signOut {
+  border: none;
+  background-color: #333;
+  font-family: "Optima";
+  font-size: 17px;
+  margin-top: 0px;
+  margin-left: 0px;
+  float: left;
+  width: 120px;
+}
+
+.signOut:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.review-title {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.review-container {
+  width: 700px;
+  height: 400px;
+  margin: 4% auto;
+  /*padding: 5%;*/
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #00564e;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
